@@ -1,6 +1,4 @@
 ## Application of Reinforcement Learning in Bitcoin Trading
-The model being used is a combination of the Proximal Policy Optimization (PPO) algorithm and the Advantage Actor-Critic (A2C) policy network. 
-
 In this model, we state the RL problem as predicting optimal actions (buy, hold, or sell) to optimize portfolio value based on the input states, which consist of price and technical indicators. The price represents the current market price of a financial asset, while the technical indicators provide additional information about the asset's past performance and market trends.
 
 To process the input states and make predictions, different neural network architectures were experimented with in the A2C network, including Long Short-Term Memory (LSTM) networks, Convolutional Neural Networks (CNN), and dense networks. Among these architectures, the dense network architecture performed the best.
